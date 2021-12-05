@@ -19,6 +19,7 @@ bin/
 
 ### IntelliJ IDEA ###
 .idea
+application-oauth.properties
 *.iws
 *.iml
 *.ipr
@@ -36,4 +37,3 @@ out/
 ### VS Code ###
 .vscode/
 
-application-oauth.properties
