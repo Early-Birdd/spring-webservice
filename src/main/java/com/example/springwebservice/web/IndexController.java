@@ -1,5 +1,6 @@
 package com.example.springwebservice.web;
 
+import com.example.springwebservice.config.auth.LoginUser;
 import com.example.springwebservice.config.auth.dto.SessionUser;
 import com.example.springwebservice.service.post.PostsService;
 import com.example.springwebservice.web.dto.PostsResponseDto;
@@ -16,13 +17,11 @@ import javax.servlet.http.HttpSession;
 public class IndexController {
 
     private final PostsService postsService;
-    private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model, @LoginUser SessionUser user){
 
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if(user != null){
             model.addAttribute("userName", user.getName());
         }
