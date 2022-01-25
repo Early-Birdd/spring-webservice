@@ -1,5 +1,4 @@
 # spring-webservice
-[스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://book.naver.com/bookdb/book_detail.nhn?bid=15871738)
 
 # 로그인 종류
 ![로그인1](https://user-images.githubusercontent.com/83779496/147877322-dedabf9c-6acf-4cae-af99-dd1b15b91379.JPG)
