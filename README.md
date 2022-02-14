@@ -1,5 +1,13 @@
 # spring-webservice
 
+# 기술 스택
+* ### Java
+* ### Spring Boot
+* ### JPA
+* ### Spring Security
+* ### OAuth
+* ### Mustache
+
 # 로그인 종류
 ![로그인1](https://user-images.githubusercontent.com/83779496/147877322-dedabf9c-6acf-4cae-af99-dd1b15b91379.JPG)
 
